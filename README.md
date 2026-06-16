@@ -112,8 +112,8 @@ Access at `http://localhost:3000`
 
 | Method | Endpoint | Auth | Description |
 |--------|----------|------|-------------|
-| POST | /api/auth/signup |  ✅ | Register |
-| POST | /api/auth/login |  ✅ | Login → JWT |
+| POST | /api/auth/signup |  ❌ | Register |
+| POST | /api/auth/login |  ❌ | Login → JWT |
 | POST | /api/review | ✅ | Submit code for review |
 | GET | /api/review/history | ✅ | Review history |
 | GET | /api/review/analytics | ✅ | Language + severity stats |
